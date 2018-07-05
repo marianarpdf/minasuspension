@@ -142,7 +142,7 @@ a:active {
   font-size: 3vh;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 
   .about{
     font-family: sans-serif;

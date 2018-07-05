@@ -281,10 +281,11 @@ h3{
 @media (max-width: 600px) {
     body {
         background-color: black;
+        overflow-x: hidden;
     }
     .center1{
       width: 200%;
-      margin-left: -50%;
+      margin-left: -55%;
       overflow-x: hidden;
     }
 
@@ -300,15 +301,15 @@ h3{
 
     .links{
       position: fixed;
-      width: 100%;
+      width: 95%;
       background-color: inherit;
       top: 0%;
       font-kerning: auto;
       line-height: 1;
-      font-size: 3vh;
+      font-size: 2.7vh;
       border-image: 10px;
       text-align: center;
-      word-spacing: 200%;
+      word-spacing: 100%;
       z-index: 1;
       padding-bottom: 1%;
     }
@@ -351,7 +352,7 @@ h3{
 
     .bio{
       position: absolute;
-      top: 130%;
+      top: 140%;
       left: 10%;
       width: 80%;
     }

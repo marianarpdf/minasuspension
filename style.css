@@ -39,13 +39,13 @@ a:active {
 
 .centertext{
   width: 30%;
-  margin-left: 37%;
+  margin-left: 36%;
   margin-top: 3%;
 }
 
 
 #poster1{
-  animation: logodelay 4s linear;
+  animation: logodelay 2s linear;
 }
 
 #poster2{
@@ -53,10 +53,10 @@ a:active {
 }
 
 .center1 :hover{
-animation: blinker 0.1s linear infinite;
+animation: blinker 3s linear infinite;
 }
 .center2 :hover{
-animation: blinker 0.2s linear infinite;
+animation: blinker 3s linear infinite;
 }
 
 .logo{
@@ -65,7 +65,7 @@ animation: blinker 0.2s linear infinite;
   align-items: center;
   text-align: center;
   top: 35%;
-  animation: logodelay 1s linear;
+  animation: logodelay 3s ease;
 }
 
 .logoabout{
@@ -74,12 +74,10 @@ animation: blinker 0.2s linear infinite;
   text-align: center;
   align-items: center;
   top: 20%;
-  animation: logodelay 1s linear;
+  animation: logodelay 3s linear;
 }
 
-.logoabout :hover{
-  animation: blinker 3s linear infinite;
-}
+
 
 
 @keyframes logodelay {
@@ -88,10 +86,6 @@ animation: blinker 0.2s linear infinite;
        opacity: 0;
    }
 
-   1% {
-       display: block;
-       opacity: 0;
-   }
 
    100% {
        display: block;
@@ -152,7 +146,7 @@ warpabout{
   position: absolute;
   width: 40%;
   margin-left: 30%;
-  margin-top: 55%;
+  margin-top: 60%;
   font-size: 2.3vh;
   margin-bottom: 10%;
   display: inline-grid;
@@ -174,18 +168,20 @@ warpabout{
 
 
 .grid-container {
+  width: 90%;
+  margin-left: 4.5%;
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto auto;
   background-color: #000000;
   padding: 1%;
   padding-top: 7%;
-  align-items: start;
+  align-items: center;
 }
 
 .grid-item {
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 3%;
   font-size: 3vh;
   text-align: center;
   -webkit-filter: grayscale(1);

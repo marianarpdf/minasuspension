@@ -171,7 +171,8 @@ warpabout{
   width: 90%;
   margin-left: 4.5%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-template-rows: auto auto auto;
   background-color: #000000;
   padding: 1%;
   padding-top: 7%;
@@ -182,7 +183,7 @@ warpabout{
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 3%;
-  font-size: 3vh;
+  font-size: 2vh;
   text-align: center;
   -webkit-filter: grayscale(1);
   animation: logodelay 1s linear;

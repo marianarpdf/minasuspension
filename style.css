@@ -52,13 +52,6 @@ a:active {
   animation: logodelay 6s linear;
 }
 
-.center1 :hover{
-animation: blinker 3s linear infinite;
-}
-.center2 :hover{
-animation: blinker 3s linear infinite;
-}
-
 .logo{
   position: absolute;
   width: 100%;

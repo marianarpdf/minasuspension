@@ -164,8 +164,8 @@ warpabout{
   width: 90%;
   margin-left: 4.5%;
   display: grid;
-  grid-template-columns: 5fr 5fr 5fr;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: auto auto;
   background-color: #000000;
   padding: 1%;
   padding-top: 7%;
